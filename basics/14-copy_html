@@ -1,2 +1,3 @@
 #!/bin/bash
-parent_dir="../parent_html"mkdir -p "$parent_dir"cp -u *.html "$parent_dir"
+cp -ur ./*.html ../parent_html/
+
